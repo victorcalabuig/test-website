@@ -1,0 +1,42 @@
+p {
+    color: #2d3e0ff9
+}
+
+html {
+  /* px means "pixels". The base font size is now 10 pixels high */
+  font-size: 20px;
+  /* Replace PLACEHOLDER with the font-family property value you got from Google Fonts */
+  font-family: Lato;
+  background-color: #9b6a3b;
+}
+
+body {
+  /* width: 1800px; */
+  width: 600px;
+  margin: 100px auto;
+  background-color: #ff9500;
+  padding: 0px 200px 20px 200px;
+  border: 40px solid black;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color: #9b6a3b;
+  text-shadow: 3px 3px 4px rgb(0, 0, 0);
+}
+
+p,
+li {
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: 1px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}

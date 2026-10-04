@@ -1,0 +1,150 @@
+/* =========================
+   PALETA
+   ========================= */
+
+:root {
+  --olive-dark: #263126;
+  --olive: #3f4a3c;
+  --olive-light: #68705a;
+
+  --khaki: #b5aa8c;
+  --sand: #d8d0b8;
+
+  --cream: #eee9dc;
+  --graphite: #1c1f1b;
+
+  --bronze: #9a8052;
+}
+
+
+/* =========================
+   BASE
+   ========================= */
+
+html {
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  background-color: var(--khaki);
+}
+
+body {
+  width: 700px;
+  margin: 60px auto;
+  padding: 40px 55px 50px;
+
+  background-color: var(--cream);
+  color: var(--graphite);
+
+  border: 10px solid var(--olive-dark);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+
+  box-sizing: border-box;
+}
+
+
+/* =========================
+   TÍTULO
+   ========================= */
+
+h1 {
+  margin: 0 0 35px;
+  padding: 20px;
+
+  text-align: center;
+
+  font-size: 42px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: var(--cream);
+  background-color: var(--olive-dark);
+
+  border-left: 8px solid var(--bronze);
+  border-right: 8px solid var(--bronze);
+
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+
+/* =========================
+   TEXTO
+   ========================= */
+
+p,
+li {
+  font-size: 20px;
+  line-height: 1.6;
+  letter-spacing: 0.3px;
+}
+
+p {
+  color: var(--olive-dark);
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+
+/* =========================
+   IMAGEN
+   ========================= */
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+
+  margin: 0 auto 35px;
+
+  border: 6px solid var(--olive-dark);
+  box-sizing: border-box;
+
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+}
+
+
+/* =========================
+   LISTA
+   ========================= */
+
+ul {
+  padding: 20px 35px;
+
+  background-color: var(--sand);
+
+  border-left: 6px solid var(--olive);
+}
+
+
+/* =========================
+   ENLACES
+   ========================= */
+
+a {
+  color: var(--olive-dark);
+  font-weight: 800;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  color: var(--bronze);
+}
+
+
+/* =========================
+   RESPONSIVE
+   ========================= */
+
+@media (max-width: 800px) {
+  body {
+    width: 90%;
+    padding: 30px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+}
